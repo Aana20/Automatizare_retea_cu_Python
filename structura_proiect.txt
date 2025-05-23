@@ -1,0 +1,9 @@
+-eve_login.py
+-network_connection.py
+-details_devices.yaml
+-config_temaplates/
+    -vlan_setup.txt
+    -change_password.txt
+    -basic_config.txt (afisarile -show .....)
+    -....
+-main.py

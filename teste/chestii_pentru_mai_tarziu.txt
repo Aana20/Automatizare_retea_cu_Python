@@ -1,0 +1,19 @@
+#conectare la un devices si sa-l pornesc
+print("SW-ul se porneste : ")
+url_start_sw1_ST ='http://192.168.238.128/api/labs/Licenta/Automatizare.unl/nodes/3/start?_=1747747196507'
+start_sw=requests.request("GET",url_start_sw1_ST,cookies=cookies)
+print(start_sw.json())
+
+s
+#oprire sw_st
+#url_stop_sw_st='http://192.168.238.128/api/labs/Licenta/Automatizare.unl/nodes/3/stop?_=1747748166276'
+#stop_sw=requests.request("GET",url_stop_sw_st,cookies=cookies)
+#print(stop_sw.json())
+
+
+#consola+obtinere Ip +port
+ip=requests.get(
+    url="http://192.168.238.128/api/labs/Licenta/Automatizare.unl/nodes/3/gettelnet",
+   # headers={"Cookie": "auth=<your-token>"}
+)
+print(ip.json())

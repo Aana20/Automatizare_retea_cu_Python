@@ -1,0 +1,104 @@
+R1:
+  device_type : cisco_ios
+  ip: 192.168.238.254
+  user_ssh: ssh_R1
+  password_ssh: R1
+  password_privileged_mod: privilegiat_R1
+
+MSW:
+  device_type: cisco_ios
+  ip: 192.168.1.1
+  password_consola: consola_MSW
+  password_telnet: telnet_MSW
+  password_privileged_mod: privilegiat_MSW
+
+SW1_ST:
+  device_type: cisco_ios
+  ip: 192.168.10.6
+  password_consola: consola_ST
+  password_telnet: telnet_ST
+  password_privileged_mod: privilegiat_ST
+
+SW1_HR:
+  device_type: cisco_ios
+  ip: 192.168.20.6
+  password_consola: consola_HR
+  password_telnet: telnet_HR
+  password_privileged_mod: privilegiat_HR
+
+SW1_F:
+  device_type: cisco_ios
+  ip: 192.168.30.6
+  password_consola: consola_F
+  password_telnet: telnet_F
+  password_privileged_mod: privilegiat_F
+
+SW1_V:
+  device_type: cisco_ios
+  ip: 192.168.40.6
+  password_consola: consola_V
+  password_telnet: telnet_V
+  password_privileged_mod: privilegiat_V
+
+SW1_C:
+  device_type: cisco_ios
+  ip: 192.168.50.6
+  password_consola: consola_C
+  password_telnet: telnet_C
+  password_privileged_mod: privilegiat_C
+
+SW1_T:
+  device_type: cisco_ios
+  ip: 192.168.60.6
+  password_consola: consola_T
+  password_telnet: telnet_T
+  password_privileged_mod: privilegiat_T
+
+SW2_T:
+  device_type: cisco_ios
+  ip: 192.168.60.7
+  password_consola: consola_T
+  password_telnet: telnet_T
+  password_privileged_mod: privilegiat_T
+
+SW3_T:
+  device_type: cisco_iosS
+  ip: 192.168.60.8
+  password_consola: consola_T
+  password_telnet: telnet_T
+  password_privileged_mod: privilegiat_T
+
+SW1_P:
+  device_type: cisco_ios
+  ip: 192.168.70.6
+  password_consola: consola_P
+  password_telnet: telnet_P
+  password_privileged_mod: privilegiat_P
+
+SW2_P:
+  device_type: cisco_ios
+  ip: 192.168.70.7
+  password_consola: consola_P
+  password_telnet: telnet_P
+  password_privileged_mod: privilegiat_P
+
+SW3_P:
+  device_type: cisco_ios
+  ip: 192.168.70.8
+  password_consola: consola_P
+  password_telnet: telnet_P
+  password_privileged_mod: privilegiat_P
+
+SW4_P:
+  device_type: cisco_ios
+  ip: 192.168.70.9
+  password_consola: consola_P
+  password_telnet: telnet_P
+  password_privileged_mod: privilegiat_P
+
+SW5_P:
+  device_type: cisco_ios
+  ip: 192.168.70.10
+  password_consola: consola_P
+  password_telnet: telnet_P
+  password_privileged_mod: privilegiat_P
