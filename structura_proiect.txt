@@ -1,9 +1,17 @@
--eve_login.py
--network_connection.py
--details_devices.yaml
--config_temaplates/
+-eve_login.py   //conectarea la eve_ng + functiile de start stop
+-network_connection.py  //conectarea la cloud cu routerul prin ssh
+-telnet_connection.py   //conectarea prin telnet la dispozitive sw ,msw ,de la router ca asa ar merge
+-details_devices.yaml   //detaliile despre componente
+-devices_informations   //pentru prima optiune ,unde vreau astea cu show
+-devices_connectivity // pentru aia cu ping
+-devices_config //pentru aia cu host ,vlan
+-devices_change //pentru aia cu schimb ip si cehstii
+-command/
     -vlan_setup.txt
     -change_password.txt
     -basic_config.txt (afisarile -show .....)
     -....
--main.py
+-raport_output.txt   ? eventual ca sa nu apara in terminal sa-mi scrie aici ,ori sa ramana toate ori de fiecare data sa se actualizeze
+-ping_log.txt ? raport la ping
+-config_log.txt ? pentru optiunea 4 cu schimb parole si chestii
+-main.py   //interfata  cu meniul si optiunile
