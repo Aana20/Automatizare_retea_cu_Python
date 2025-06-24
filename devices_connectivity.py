@@ -67,7 +67,7 @@ def connectivity():
                 output =telnet(network_connect, info_target)
                 ping_submenu(network_connect,device_selected,device_data)
             else:
-                print("Atat s-a putut")
+                print("Nu s-a facut conexiunea")
         else:
             print("Dispozitivul nu exista in YAML. ")
 

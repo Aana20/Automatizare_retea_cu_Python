@@ -71,7 +71,7 @@ def information():
                 output =telnet(network_connect, info_target)
                 information_submenu(network_connect,device_selected)
             else:
-                print("Atat s-a putut")
+                print("Nu s-a facut conexiunea")
         else:
             print("Dispozitivul nu exista in YAML. ")
 

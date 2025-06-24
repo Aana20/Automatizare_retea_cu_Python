@@ -1,9 +1,6 @@
 from idlelib.config import idleConf
 
 import yaml
-
-
-
 from telnet_connection import telnet
 from network_connection import  get_connection
 
@@ -87,7 +84,7 @@ def modify_device_config():
                 output =telnet(network_connect, info_target)
                 config_device_submenu(network_connect,device_selected)
             else:
-                print("Atat s-a putut")
+                print("Nu s-a facut conexiunea")
         else:
             print("Dispozitivul nu exista in YAML. ")
 

@@ -1,5 +1,4 @@
-
-
+from devices_change import modify_device_config
 from devices_information import  information
 from devices_config import config
 from devices_connectivity import connectivity
@@ -14,7 +13,7 @@ def show_meniu():
     print("5.Verifica daca dispozitivele sunt pornite/oprite")
     print("6.Iesire din meniul principal")
 
-    #option=input("\nAlege o optiune (1-6) : ")
+
 
 while True:
     show_meniu()
@@ -36,6 +35,17 @@ while True:
     elif option=="3":
         while True:
             connectivity()
+            iesire = input("Vrei sa faci alt ceva? (da/nu)  : ")
+            if iesire == "nu":
+                break
+    elif option=="4":
+        while True:
+            modify_device_config()
+            iesire = input("Vrei sa faci alt ceva? (da/nu)  : ")
+            if iesire == "nu":
+                break
+    elif option=="5":
+        while True:
             iesire = input("Vrei sa faci alt ceva? (da/nu)  : ")
             if iesire == "nu":
                 break

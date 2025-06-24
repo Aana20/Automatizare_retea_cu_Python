@@ -1,5 +1,5 @@
 from netmiko import ConnectHandler
-#functia pentru conectarea la router ,ca oricum e principalul la care trebuie sa ma conectez
+#functia pentru conectarea la router ,care principalul la care trebuie conectat
 def get_connection(router):
     return ConnectHandler(
         device_type=router['device_type'],

@@ -1,6 +1,6 @@
-
---- Ping de la R1 către MSW (192.168.1.1) ---
+--- Ping de la MSW către SW1_ST (192.168.10.6) ---
 Type escape sequence to abort.
-Sending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:
+Sending 5, 100-byte ICMP Echos to 192.168.10.6, timeout is 2 seconds:
 .!!!!
-Success rate is 80 percent (4/5), round-trip min/avg/max = 8/10/12 ms
+Success rate is 80 percent (4/5), round-trip min/avg/max = 2/6/9 ms
+MSW#
