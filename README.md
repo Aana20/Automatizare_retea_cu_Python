@@ -1,5 +1,5 @@
+link : https://github.com/Aana20/Automatizare_retea_cu_Python
 #  Automatizarea procesului de administrare a unei rețele de calculatoare folosind scripturi Python
-
 
 
 ## Cuprins
